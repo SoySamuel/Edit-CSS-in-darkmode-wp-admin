@@ -1,0 +1,99 @@
+/*                      3      CSS EDITOR EN NEGRO                     */
+/* this changes the "appearance ➜ customize ➜ additional CSS" to dark mode without affecting the size, as it would do in the case of my other repositories: Bigger Wp-Admin */
+/* read the readme to know how to insert this */
+
+.CodeMirror {
+	background: #2B2B2B!important;
+}
+
+/* Fondo activo */
+.CodeMirror-activeline-background {
+	background: #202033!important;
+}
+
+/* @Media */
+.cm-s-default .cm-def {
+	color: DodgerBlue!important;
+}
+
+/* ul, a ... */
+.cm-s-default .cm-tag {
+	color: white!important;
+}
+
+/* Comentario */
+.cm-s-default .cm-comment {
+	color: orange!important;
+}
+
+/* Número */
+.cm-s-default .cm-number {
+	color: springgreen!important;
+}
+
+/* Propiedades y símbolos ej. display */
+.CodeMirror-lines {
+	color: aquamarine!important;
+}
+
+/* Clases */
+.cm-s-default .cm-meta,.cm-s-default .cm-qualifier {
+	color: white!important;
+}
+
+/* id */
+.cm-s-default .cm-builtin {
+	color: white!important;
+}
+
+.cm-s-default .cm-keyword {
+	color: GreenYellow!important;
+}
+
+/* hover */
+.cm-s-default .cm-type,.cm-s-default .cm-variable-3 {
+	color: gold!important;
+}
+
+/* Valor que se leda a una propiedad ej. none */
+.cm-s-default .cm-atom {
+	color: MediumSpringGreen!important;
+}
+
+/* Numeración de las líneas */
+.CodeMirror-linenumber .CodeMirror-gutter-elt {
+	padding: 0!important;
+	margin-right: -10px!important;
+	margin-left: -10px!important;
+}
+
+.CodeMirror-gutter {
+	background-color: #2B2B2B!important;
+}
+
+.wrap .CodeMirror .CodeMirror-linenumber {
+	color: grey!important;
+	background-color: #2a2d30!important;
+}
+
+/* */
+/*                      admin css mu editor                       */
+/* this code is necesary because when we change to dark mode with the previous code, that affects they way "appearance ➜ customize ➜ aditional CSS" looks, it also modifies the CSS MU editor, making it dificult to read, the following code solves that */
+.cm-s-default .cm-property {
+	color: aquamarine!important;
+}
+
+.cm-s-default .cm-operator {
+	color: white!important;
+}
+
+cm-s-default .cm-string-2 {
+	color: white!important;
+}
+
+.cm-s-default .cm-string-2 {
+	color: MediumSpringGreen!important;
+}
+/* */
+
+/* Samuel Medina */
