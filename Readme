@@ -1,9 +1,16 @@
-This code changes the way wp-admin is seen, to make it more relaxed for the eyes of everyone to edit with it. It is specially useful for visually impaired people.
-To introduce this code, install a pluggin like Admin CSS MU:
+This code changes the way wp-admin is seen by the web designer. With darkmode, it is more relaxed for the eyes for all of those who prefer darkmode but the Wordpress theme do not put the additional CSS editor in darkmode. 
+
+To introduce this code:
+
+1. install a pluggin like Admin CSS MU:
 
 https://wordpress.org/plugins/admin-css-mu/
 
-it is very easy to use, just after instaling the plugin, clic "Add CSS" and paste the code of your liking. Make sure Load Admin CSS is marked and Save CSS. 
+it is very easy to use, just after instaling the plugin.
+
+2. Clic "Add CSS" and paste the code. 
+
+3. Make sure Load Admin CSS is marked and Save CSS. 
 
 Works best with the theme Blocksy. For other themes it does work too, but you might need an small change to make it perfect. 
 If you need my help, contact me from my sebsite: WWW.samuelmedina.es
